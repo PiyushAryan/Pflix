@@ -4,4 +4,25 @@
 
 ::-webkit-scrollbar {
     display: none;
-    } 
+} 
+
+@font-face {
+    font-family: 'Ns Bold';
+    src: url('./assets/netflix-sans-font/NetflixSans-Bold.woff2');
+}
+
+@font-face {
+    font-family: 'Ns Regular';
+    src: url('./assets/netflix-sans-font/NetflixSans-Regular.woff2');
+}
+
+body {
+    font-family: "Ns Regular", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.hide-navigation-item {
+
+    display: none !important;
+    
+    }
