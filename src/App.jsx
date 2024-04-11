@@ -16,14 +16,13 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/login' element={<Login />} />
-          <Route path='*' element={<Error />} />
           <Route path='/skills' element={<Skills />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='Projects' element={<Projects />} />
+          <Route path='*' element={<Error />} />
         </Routes>
       </BrowserRouter>
 

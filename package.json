@@ -12,6 +12,7 @@
   "dependencies": {
     "@coreui/icons": "^3.0.1",
     "@coreui/icons-react": "^2.2.1",
+    "@headlessui/react": "^1.7.18",
     "firebase": "^10.10.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
