@@ -1,6 +1,8 @@
 import React from 'react'
 
 
+
+
 function Hero() {
     return (
         <>
@@ -25,7 +27,7 @@ function Hero() {
                 </ul>
                 <p className='text-white text-sm mt-4 mr-72'>The Kashi Vishwanath Temple is a Hindu temple dedicated to Lord Shiva. It is located in Varanasi, Uttar Pradesh, India. The temple stands on the western bank of the holy river Ganga, and is one of the twelve Jyotirlingas, the holiest of Shiva temples. The main deity is known by the name Vishwanatha or Vishweshwara, meaning Ruler of the Universe.</p>
                 <div className='mt-8 mb-2'>
-                    <button className=' capitalize font-bold bg-white bg-opacity-100 py-2 px-5 rounded-sm hover:bg-opacity-60'>
+                    <button className='capitalize font-bold bg-white bg-opacity-100 py-2 px-5 rounded-sm hover:bg-opacity-60'>
                     <img  className='inline mx-1 h-6 mb-0.5'src='src/assets/play-button.png'/>Play</button>
                     <button className='capitlize bg-opacity-40 hover:bg-opacity-20 bg-white font-bold text-white py-2 px-5 rounded ml-4'><img  className='inline mx-1 h-6 mb-0.5' src='src/assets/info-48.png'/>More Info</button>
                 </div>
