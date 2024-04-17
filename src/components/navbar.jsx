@@ -11,7 +11,7 @@ function Navbar() {
       <img src="/logo.png" className="h-8" alt="Netflix Logo" />
         <ul className="font-medium flex p-0 rounded-lg flex-row space-x-8 mt-0 border-0 bg-transparent border-gray-100">
           <li>
-            <NavLink to="/Home" className="block py-2 px-3 bg-blue-700 rounded md:bg-transparent p-0 text-blue-500" aria-current="page">Home</NavLink>
+            <NavLink to="/Home" className="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent border-0 hover:text-blue-700 p-0 text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home</NavLink>
           </li>
           <li>
             <NavLink to="/projects" className="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent border-0 hover:text-blue-700 p-0 text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Project</NavLink>

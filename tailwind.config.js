@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Montserrat: ["Montserrat", "sans-serif"],
+        Cinzel: ["Cinzel", "serif"],
+        Inter: ["Inter", "sans-serif"],
+    },
   },
   plugins: [],
+}
 };
