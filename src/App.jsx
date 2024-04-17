@@ -6,7 +6,6 @@ import Error from './pages/error'
 import Skills from './pages/skills'
 import Contact from './pages/contact'
 import Projects from './pages/projects'
-
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 
