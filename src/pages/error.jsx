@@ -3,7 +3,7 @@ import React from 'react'
 function error() {
     return (
         <>
-            <img className="w-[100%]" src="public/Not Found.png" alt="404" />
+            <img className="w-[100%]" src="/Not Found.png" alt="404" />
         </>
     )
 }
