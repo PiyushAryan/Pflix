@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import Navbar from '../components/navbar'
 import Modal from '../components/Modal'
+import Dropdowns from '../components/Dropdowns';
+import Footer from '../components/footer';
 
 
 function Contact() {
@@ -9,6 +11,7 @@ function Contact() {
   return (
     <>
     <Navbar />
+    <Dropdowns />
     <div className='mt-20 text-center text-lime-500 font-bold text-4xl'>Contact</div>
     <button onClick={() => setOpen(true)} className='mx-56 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>About</button>
     <Modal open={open} onClose={() => setOpen(false)}>
@@ -23,6 +26,7 @@ function Contact() {
 </div>
 
     </Modal>
+    <Footer />
     </>
   )
 }

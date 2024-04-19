@@ -3,7 +3,9 @@ import React from 'react'
 function error() {
     return (
         <>
-            <img className="w-[100%]" src="/Not Found.png" alt="404" />
+        <div className="w-full max-h-full fixed">
+            <img src="/Not Found.png" alt="404" />
+            </div>
         </>
     )
 }
