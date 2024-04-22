@@ -3,7 +3,7 @@ import { X } from 'lucide-react';
 
 
 
-function CustumModal({ onClose, children, open }) {
+function CustomModal({ onClose, children, open }) {
 
   return (
 
@@ -20,7 +20,7 @@ function CustumModal({ onClose, children, open }) {
   )
 }
 
-export default CustumModal;
+export default CustomModal;
 
 
 
