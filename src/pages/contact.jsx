@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import Navbar from '../components/navbar'
-import Modal from '../components/Modal'
 import Dropdowns from '../components/Dropdowns';
 import Footer from '../components/footer';
+import CustumModal from '../components/CustumModal';
 
 
 function Contact() {
@@ -14,7 +14,7 @@ function Contact() {
     <Dropdowns />
     <div className='mt-20 text-center text-lime-500 font-bold text-4xl'>Contact</div>
     <button onClick={() => setOpen(true)} className='mx-56 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>About</button>
-    <Modal open={open} onClose={() => setOpen(false)}>
+    <CustumModal open={open} onClose={() => setOpen(false)}>
     <div className='text-center text-slate-50 w-80 h-80 border-gray-400 rounded-lg p-4'>
     <h1 className='text-2xl font-Montserrat font-normal gap-2 '>About</h1>
     <div className='font-medium font-Inter '>
@@ -25,7 +25,7 @@ function Contact() {
     </div>
 </div>
 
-    </Modal>
+    </CustumModal>
     <Footer />
     </>
   )

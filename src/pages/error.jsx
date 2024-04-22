@@ -1,13 +1,17 @@
-import React from 'react'
+import React from 'react';
+import Navbar from '../components/navbar';
 
-function error() {
+function Error() {
     return (
         <>
-        <div className="w-full max-h-full fixed">
-            <img src="/Not Found.png" alt="404" />
+            <Navbar />
+            <div className="flex justify-center items-center h-screen">
+                <div className="w-1/2 h-80vh">
+                    <img src="/Not Found.png" alt="404" className="w-full h-full" />
+                </div>
             </div>
         </>
-    )
+    );
 }
 
-export default error
+export default Error;

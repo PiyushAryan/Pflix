@@ -1,12 +1,9 @@
-import { useState } from 'react';
 import { X } from 'lucide-react';
-import { Link } from 'react-router-dom';
 
 
 
 
-// eslint-disable-next-line react/prop-types
-function Modal({ onClose, children, open }) {
+function CustumModal({ onClose, children, open }) {
 
   return (
 
@@ -23,7 +20,7 @@ function Modal({ onClose, children, open }) {
   )
 }
 
-export default Modal;
+export default CustumModal;
 
 
 
