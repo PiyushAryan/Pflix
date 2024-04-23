@@ -16,8 +16,8 @@ function Hero() {
             
 
             <div className='absolute w-full top-[35%] p-10 '>
-                <h1 className='text-5xl text-white font-Ns-Bold font-bold'>Varanasi</h1>
-                <h2 className='text-3xl text-white font-Ns-Bold font-semibold mt-2'>Kashi Vishwanath Temple</h2>
+                <h1 className='text-6xl text-white font-Cinzel font-black'>Athena</h1>
+                <h2 className='text-3xl text-white font-Montserrat font-semibold mt-2'>Decentralised Cloud Storage</h2>
                 <ul className='flex flex-row text-white text-sm mt-4'>
                     <li className='mr-4 mx-1 text-white'><img src='/react.svg' className='h-8'/></li>
                     <li className='mr-4 mx-1 text-white'><img src='/firebase.svg' className='h-9'/></li>
