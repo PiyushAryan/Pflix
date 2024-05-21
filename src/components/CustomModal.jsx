@@ -15,6 +15,7 @@ function CustomModal({ onClose, children, open }) {
         <X className='h-6 w-6' />
       </button>
         {children}
+        
       </div>
     </div>
   )
