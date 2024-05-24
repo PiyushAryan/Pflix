@@ -30,8 +30,8 @@ function Login() {
             </li>
             <li className='my-10'>
               <Link to='/Home'><div className='group'>
-                <img className='duration-200 h-36 group-hover:animate-pulse shadow-gray-800 shadow-md ease-in-out object-cover rounded ring ring-black group-hover:ring-white' src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" alt="Netflix Avatar" />
-                <h1 className='group-hover:text-white text-slate-400 text-xl my-3'>Satakshi</h1>
+                <img className='duration-200 h-36 group-hover:animate-pulse shadow-gray-800 shadow-md ease-in-out object-cover rounded ring ring-black group-hover:ring-white' src="https://occ-0-6245-2186.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABR7GBzHNeGCVNky_Hk1aST16wOCCdPJJmbDA81kML6mu60veAEDdhPgJmILK-hlPCDgULvxtEAqegEdHro6gTeMqt4uexdWvp5Ah.png?r=54d" alt="Netflix Avatar" />
+                <h1 className='group-hover:text-white text-slate-400 text-xl my-3'>Pragya</h1>
               </div>
               </Link>
             </li>

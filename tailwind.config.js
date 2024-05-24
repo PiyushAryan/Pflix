@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      colors:{
+    'netflix':'#E50914',
+  },
       fontFamily: {
         Montserrat: ["Montserrat", "sans-serif"],
         Cinzel: ["Cinzel", "serif"],
@@ -13,5 +16,6 @@ export default {
     },
   },
   plugins: [],
+
 }
 };
