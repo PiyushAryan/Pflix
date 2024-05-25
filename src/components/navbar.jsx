@@ -1,6 +1,7 @@
 import { useState, useRef } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
+import { FaGithub } from "react-icons/fa6";
 import Dropdowns from '../components/Dropdowns';
 
 
@@ -8,8 +9,8 @@ function Navbar() {
 
   const [open, setOpen] = useState(false);
 
-  const dropdownRef = useRef();
-  const imgRef = useRef();
+  const dropdownRef = useRef(null);
+  const imgRef = useRef(null);
 
 
   window.addEventListener('click', (e) => {
@@ -42,22 +43,22 @@ function Navbar() {
         </NavLink>
         <ul className='space-x-4 flex-row flex p-0 mt-0' >
           <li>
-            <img src="/search.svg" className="h-6 hover:bg-opacity-20" alt="Search" />
+            <img src="/search.svg" className="w-6 h-6 hover:bg-opacity-20" alt="Search" />
           </li>
           <li>
-            <img src="/notify.png" className="h-6 hover:bg-opacity-20 relative" alt="notification" />
+            <img src="/notify.png" className="w-6 h-6 hover:bg-opacity-20 relative" alt="notification" />
           </li>
           <li>
-            <Link to={'https://www.github.com/PiyushAryan/'}><img className='h-6 hover:bg-opacity-20 relative' alt='github' src='/github.svg' /></Link>
+            <Link to={'https://www.github.com/PiyushAryan/'}><FaGithub className='text-white w-6 h-6 hover:bg-opacity-20 relative items-center' /></Link>
           </li>
           <li>
-            <Link to={'https://www.linkedin.com/in/piyush-aryan/'}><img className='h-6 hover:bg-opacity-20 relative' alt='linkedin' src='/linkedin.svg' /></Link>
+            <Link to={'https://www.linkedin.com/in/piyush-aryan/'}><img className='w-6 h-6 hover:bg-opacity-20 relative items-center' alt='linkedin' src='/linkedin.svg' /></Link>
           </li>
           <li>
             <div className='relative'>
               <img ref={imgRef} onClick={() => setOpen(!open)} className="relative object-cover cursor-pointer rounded" src="https://occ-0-3213-3646.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABTZ2zlLdBVC05fsd2YQAR43J6vB1NAUBOOrxt7oaFATxMhtdzlNZ846H3D8TZzooe2-FT853YVYs8p001KVFYopWi4D4NXM.png?r=229" alt="profile" />
               {open && (
-                <div ref={dropdownRef} className="bg-gray-700 bg-opacity-80 text-white shadow-md shadow-gray-800 p-4 w-40 m-10 absolute top-0 right-0">
+                <div ref={dropdownRef} className="bg-black bg-opacity-80 text-white  shadow-md p-4 w-52 m-10 absolute top-0 right-0">
                   <Dropdowns />
                 </div>
               )}
