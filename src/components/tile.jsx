@@ -1,4 +1,6 @@
 import { BsFillPlayFill } from "react-icons/bs";
+import { AiFillPlusCircle } from "react-icons/ai";
+import { BsHandThumbsUp } from "react-icons/bs";
 
 export default function tile() {
 
@@ -12,10 +14,18 @@ export default function tile() {
           <div className="z-10 bg-zinc-800 p-2 lg:p-4 absolute w-full transition shadow-md rounded-b-md">
             <div className="flex flex-row items-center gap-3">
               <div className="cursor-pointer w-6 h-6 lg:w-10 lg:h-10 bg-white rounded-full justify-center items-center flex transition hover:bg-neutral-300" onClick={() => { }}>
-                <BsFillPlayFill size={30}/>
+                <BsFillPlayFill size={30} />
+              </div>
+              <div className="cursor-pointer w-6 h-6 lg:w-10 lg:h-10 bg-white rounded-full justify-center items-center flex transition hover:bg-neutral-400" onClick={() => { }}>
+              <AiFillPlusCircle className="text-zinc-800" size={50} />
+              </div>
+              <div className="cursor-pointer w-6 h-6 lg:w-10 lg:h-10 bg-white rounded-full justify-center items-center flex transition hover:bg-neutral-400" onClick={() => { }}>
+              <BsHandThumbsUp className="text-zinc-800"/>
               </div>
             </div>
-            <div className="text-white text-xs lg:text-base font-semibold mt-2">Iskcon Hazaribag</div>
+            <div className="text-green-500 font-bold my-1 text-xs">New</div>
+            <div className="text-white text-xs lg:text-base font-semibold mt-2"></div>
+            
           </div>
         </div>
       </div>
