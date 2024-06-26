@@ -22,7 +22,7 @@ function Contact() {
             Pflix is one of my projects that acts as my portfolio and lets you discover my projects, skills, and experience through a familiar UI inspired by a popular streaming video website called Netflix.
           </div>
         </div>
-
+      
       </CustomModal>
       <Footer />
     </>

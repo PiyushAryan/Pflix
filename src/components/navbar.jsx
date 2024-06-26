@@ -1,14 +1,13 @@
 import { useState, useRef } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import { FaGithub } from "react-icons/fa6";
 import Dropdowns from '../components/Dropdowns';
-
+import { MdArrowDropUp } from "react-icons/md";
+import { MdArrowDropDown } from "react-icons/md";
 
 function Navbar() {
 
   const [open, setOpen] = useState(false);
-
   const dropdownRef = useRef(null);
   const imgRef = useRef(null);
 
@@ -20,9 +19,9 @@ function Navbar() {
   });
 
 
-
   return (
-    <nav className="bg-black bg-opacity-50 border-gray-200 hover:opacity-90 fixed top-0 w-full z-10">
+    <>
+    <nav className="bg-gradient-to-b from-gray-950 to-transparent bg-opacity-50 border-gray-200 hover:opacity-90 fixed top-0 w-full z-10">
       <div className="max-w-screen-xl flex items-center justify-between mx-auto p-4">
         <NavLink to="/Home" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src="/logo.png" className="h-8" alt="Netflix Logo" />
@@ -64,12 +63,10 @@ function Navbar() {
               )}
             </div>
           </li>
-          <li>
-            {<ChevronDownIcon />}
-          </li>
         </ul>
       </div>
     </nav>
+    </>
 
   );
 }
