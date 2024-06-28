@@ -9,5 +9,5 @@ Currently, two official plugins are available:
 
 # Docker : 
 
-`` docker pull piyusharyan81/mind:latest ``
+` docker pull piyusharyan81/mind:latest `
 
