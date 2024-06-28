@@ -26,7 +26,7 @@ function Hero() {
                     <li className='mr-4 mx-1 text-white'><img src='https://git-scm.com/images/logos/downloads/Git-Icon-White.png' className='h-8'/></li>
                     <li className='mr-4 mx-1 text-white'><img src='/tailwind.svg' className='h-10'/></li>
                 </ul>
-                <p className='text-white text-sm mt-4 mr-72'>The Kashi Vishwanath Temple is a Hindu temple dedicated to Lord Shiva. It is located in Varanasi, Uttar Pradesh, India. The temple stands on the western bank of the holy river Ganga, and is one of the twelve Jyotirlingas, the holiest of Shiva temples. The main deity is known by the name Vishwanatha or Vishweshwara, meaning Ruler of the Universe.</p>
+                <p className='text-white text-md mt-4 mr-72'>Athena is a decentralized cloud storage solution that leverages React.js and Ether.js frameworks. <br/>Built on blockchain technology, Athena provides a secure, transparent, and decentralized storage platform for digital assets.</p>
                 <div className='mt-8 mb-2'>
                     <Link to='/Watch'><button className='capitalize font-bold bg-white bg-opacity-100 py-2 px-5 rounded-sm hover:bg-opacity-60'>
                     <img  className='inline mx-1 h-6 mb-0.5'src='/play-button.png'/>Play</button></Link>
