@@ -79,11 +79,13 @@ export default function tile() {
                 <div className="text-white text-xs lg:text-sm font-normal mt-2">1 Month</div>
                 <div className="text-white text-xs lg:text-sm font-normal mt-2">Web Dev</div>
               </div>
-              <div className="text-white font-semibold my-3 text-xs">HTML  •  Bootstrap  •  JavaScript  •  Razorpay</div>
+              <div className="text-white font-semibold my-3 text-xs">Next.js • Tailwind CSS • Ether.js • Solidity • Hardhat • Metamask</div>
             </div>
           </div>
         </div>
       </div>
+      <h2 className="text-xl md:text-lg sm:text-base text-white font-bold m-10">Most Used Skills</h2>
+
     </>
   );
 }

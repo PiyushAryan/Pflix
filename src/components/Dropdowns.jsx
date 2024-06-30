@@ -3,12 +3,25 @@ import { TiPencil } from "react-icons/ti";
 import { FaGithub } from "react-icons/fa6";
 import { MdOutlineContactSupport } from "react-icons/md";
 import { GrUser } from "react-icons/gr";
+import { useState } from 'react';
+import CustomModal from '../components/CustomModal';
 
 function Dropdowns() {
 
+    const[open, setOpen] = useState(false);
 
-    const Menus = [{name:'Manage Profiles', link:'/', imgSrc: <TiPencil className='w-6 h-6 mr-3' />},{name:'GitHub', link:'https://github.com/PiyushAryan', imgSrc:<FaGithub className='w-6 h-6 mr-3' />}, {name:'Contact', link:'/contact', imgSrc: <MdOutlineContactSupport className='w-6 h-6 mr-3' />}, {name:'About', link:'/error', imgSrc: <GrUser className='w-6 h-6 mr-3' />}]
-    const ImgMenus = [{name: 'Piyush', link:'/Home', imgSrc: '/1679989398421.jpg'},{name: 'Children', link:'/Home', imgSrc: 'https://occ-0-6245-2186.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABR7GBzHNeGCVNky_Hk1aST16wOCCdPJJmbDA81kML6mu60veAEDdhPgJmILK-hlPCDgULvxtEAqegEdHro6gTeMqt4uexdWvp5Ah.png?r=54d'}]
+    const Menus = [
+        {name: 'Manage Profiles', link: '/', imgSrc: <TiPencil className='w-6 h-6 mr-3' />},
+        {name: 'GitHub', link: 'https://github.com/PiyushAryan', imgSrc: <FaGithub className='w-6 h-6 mr-3' />},
+        {name: 'Contact', link: '/contact', imgSrc: <MdOutlineContactSupport className='w-6 h-6 mr-3' />},
+        {name: 'About', link: '/error', onClick: () => setOpen(false), imgSrc: <GrUser className='w-6 h-6 mr-3' />}
+    ];
+
+    const ImgMenus = [
+        {name: 'Piyush', link: '/Home', imgSrc: '/1679989398421.jpg'},
+        {name: 'Children', link: '/Home', imgSrc: 'https://occ-0-6245-2186.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABR7GBzHNeGCVNky_Hk1aST16wOCCdPJJmbDA81kML6mu60veAEDdhPgJmILK-hlPCDgULvxtEAqegEdHro6gTeMqt4uexdWvp5Ah.png?r=54d'}
+    ];
+    
 
     return (
         <>

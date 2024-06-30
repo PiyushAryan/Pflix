@@ -1,11 +1,18 @@
-# React + Vite
+# Pflix - Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
+This project is a Netflix-inspired personal portfolio web application that mimics the user interface of Netflix. It is built using React for the frontend, Tailwind CSS for styling, Vercel for deployment, and Firebase for backend services.
 
-Currently, two official plugins are available:
+## Key Features
+- **Movie Browsing**: Users can browse through a list of projects and skills.
+- **Search Functionality**: Users can search for their Projects and other skills.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- **React**: A JavaScript library for building user interfaces.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **Firebase**: Backend-as-a-Service (BaaS) providing authentication, Firestore database, and hosting.
+- **Vercel**: A cloud platform for static sites and serverless functions, used for deploying the application.
+
 
 **Docker :**
 ```
