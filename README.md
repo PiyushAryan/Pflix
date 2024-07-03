@@ -1,11 +1,6 @@
 # Pflix - Personal Portfolio
 
-## Project Overview
 This project is a Netflix-inspired personal portfolio web application that mimics the user interface of Netflix. It is built using React for the frontend, Tailwind CSS for styling, Vercel for deployment, and Firebase for backend services.
-
-## Key Features
-- **Movie Browsing**: Users can browse through a list of projects and skills.
-- **Search Functionality**: Users can search for their Projects and other skills.
 
 ## Technologies Used
 - **React**: A JavaScript library for building user interfaces.

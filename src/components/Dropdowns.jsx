@@ -21,6 +21,8 @@ function Dropdowns() {
         {name: 'Piyush', link: '/Home', imgSrc: '/1679989398421.jpg'},
         {name: 'Children', link: '/Home', imgSrc: 'https://occ-0-6245-2186.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABR7GBzHNeGCVNky_Hk1aST16wOCCdPJJmbDA81kML6mu60veAEDdhPgJmILK-hlPCDgULvxtEAqegEdHro6gTeMqt4uexdWvp5Ah.png?r=54d'}
     ];
+
+    
     
 
     return (
