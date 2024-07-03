@@ -1,5 +1,7 @@
 # Pflix - Personal Portfolio
 
+![Static Badge](https://img.shields.io/badge/Repo_Size-281_MB-Red)
+
 This project is a Netflix-inspired personal portfolio web application that mimics the user interface of Netflix. It is built using React for the frontend, Tailwind CSS for styling, Vercel for deployment, and Firebase for backend services.
 
 ## Technologies Used
