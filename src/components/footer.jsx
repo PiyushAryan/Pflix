@@ -1,15 +1,14 @@
-import React from 'react'
 
-const footer = () => {
+const Footer = () => {
     return (
-
         <>
-        <div>
-            <h1 className='text-white'>Footer</h1> 
-        
-        </div>
+        <footer className="fixed bg-gray-800 p-10">
+            <div className="font-Inter font-light text-slate-400">
+                Made <span role="img" className="text-red-600" aria-label="heart">❤️</span> & 🍺 by Piyush Aryan
+            </div>
+        </footer>
         </>
     )
 }
 
-export default footer
+export default Footer

@@ -1,12 +1,13 @@
-import { useState, useRef } from 'react';
+import { useState, useRef, useContext } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { FaGithub } from "react-icons/fa6";
-import Dropdowns from '../components/Dropdowns';
+import Dropdowns from './Dropdowns';
 import { MdArrowDropUp } from "react-icons/md";
 import { MdArrowDropDown } from "react-icons/md";
 
-function Navbar() {
 
+function Navbar() {
+// const {isDropdownVisible, setIsDropdownVisible}=useContext(AppContext)
   const [open, setOpen] = useState(false);
   const dropdownRef = useRef(null);
   const imgRef = useRef(null);
