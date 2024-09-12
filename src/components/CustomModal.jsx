@@ -17,7 +17,7 @@ function CustomModal({ children }) {
       >
         <div
           onClick={(e) => e.stopPropagation()}
-          className={`bg-red-800 rounded-xl shadow p-6 transition-all scale-100 opacity-100 `}
+          className={`bg-black rounded-xl shadow p-6 transition-all scale-100 opacity-100 `}
         >
           <button
             onClick={() => setIsDropdownVisible(false)}
