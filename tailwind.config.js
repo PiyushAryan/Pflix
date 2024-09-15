@@ -13,6 +13,8 @@ export default {
         Montserrat: ["Montserrat", "sans-serif"],
         Cinzel: ["Cinzel", "serif"],
         Inter: ["Inter", "sans-serif"],
+        Roboto: ["Roboto", "sans-serif"],
+        
     },
   },
   plugins: [],

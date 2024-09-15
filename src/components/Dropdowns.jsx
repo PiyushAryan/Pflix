@@ -47,6 +47,10 @@ function Dropdowns() {
                 ))}
             </ul>
             <hr className='h-px border-0 bg-gray-500' />
+            <div className='p-1 pl-5 ml-0 m-2 mr-2 text-sm cursor-pointer rounded hover:underline hover:underline-offset-0 text-start hover:text-gray-300'>
+            Log out
+            </div>
+            
         </>
     );
 }

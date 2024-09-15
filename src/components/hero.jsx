@@ -10,7 +10,7 @@ function Hero() {
             <div className='w-full h-[650px]'>
                 <div className='w-full h-full'>
                     <div className="absolute w-full h-[650px] bg-gradient-to-t from-black"></div>
-                    <img src="/hero.jpg" alt="HeroBanner" className="h-full object-top object-cover w-full" />
+                    <img src="/pmo.jpg" alt="HeroBanner" className="h-full object-top object-cover w-full" />
                 </div>
             </div>
 
