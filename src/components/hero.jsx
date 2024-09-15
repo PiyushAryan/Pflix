@@ -13,9 +13,6 @@ function Hero() {
                     <img src="/pmo.jpg" alt="HeroBanner" className="h-full object-top object-cover w-full" />
                 </div>
             </div>
-
-            
-
             <div className='absolute w-full top-[35%] p-10 '>
                 <h1 className='text-6xl text-white font-Cinzel font-black'>Athena</h1>
                 <h2 className='text-3xl text-white font-Montserrat font-semibold mt-2'>Decentralised Cloud Storage</h2>

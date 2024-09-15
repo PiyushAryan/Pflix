@@ -1,4 +1,4 @@
-import { useState, useRef, useContext } from 'react';
+import { useState, useRef} from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { FaGithub } from "react-icons/fa6";
 import Dropdowns from './Dropdowns';

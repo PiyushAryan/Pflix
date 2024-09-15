@@ -1,5 +1,3 @@
-import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
 import Hero from '../components/hero';
 import Navbar from '../components/navbar';
 import Body from '../components/body';
@@ -12,6 +10,7 @@ function home() {
       <Navbar />
       <Hero />
       <Body />
+      <Footer />
     </>
   )
 }

@@ -9,8 +9,7 @@ function Body() {
         <>
         <div className=''>
         <Tile />
-        {/* <Tile /> */}
-        <Footer />
+        {/* <Footer /> */}
         </div>
         </>
 

@@ -10,6 +10,7 @@ import Watch from './pages/Watch'
 import { AppProvider } from '../Context/AppContext'
 import CustomModal from './components/CustomModal'
 import Modal from './components/Modal'
+import Footer from './components/footer'
 
 
 
