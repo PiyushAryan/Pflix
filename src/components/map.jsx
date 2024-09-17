@@ -2,7 +2,7 @@ import { MapContainer, TileLayer } from "react-leaflet";
 
 const MapComponent = () => {
     return (
-        <MapContainer className="w-[50%] h-[80%]" style={{height: '500px', width:'50%'}}   center={[24.0005577,85.3374942]} zoom={13} scrollWheelZoom={false}>
+        <MapContainer className="w-[80%] h-[80%] mx-10 my-10" style={{height: '500px', width:'50%'}}   center={[24.0005577,85.3374942]} zoom={13} scrollWheelZoom={false}>
         <TileLayer
             attribution = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             url = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
