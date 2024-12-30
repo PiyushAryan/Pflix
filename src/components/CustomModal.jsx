@@ -3,8 +3,6 @@ import { useContext } from 'react';
 import { AppContext } from '../../Context/AppContext';
 
 
-
-// eslint-disable-next-line react/prop-types
 function CustomModal({ children }) {
 
   const { isDropdownVisible, setIsDropdownVisible } = useContext(AppContext)
