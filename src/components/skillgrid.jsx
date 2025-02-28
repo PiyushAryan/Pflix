@@ -2,13 +2,14 @@ import { useState } from "react";
 
 const skills = [
   { name: "Next.js", projects: 1, color: "bg-green-500", logo: "nextjs.svg" },
-  { name: "React", projects: 3, color: "bg-blue-400", logo: "react.svg" },
+  { name: "React", projects: 3, color: "bg-[#61DBFB]", logo: "react-white.svg" },
   { name: "Vercel", projects: 2, color: "bg-white", logo: "vercel.svg" },
   { name: "Tailwind", projects: 12, color: "bg-[#06B6D4]", logo: "tailwind.svg" },
   { name: "Vite", projects: 6, color: "bg-purple-500", logo: "vite.svg" },
   { name: "Docker", projects: 2, color: "bg-[#1D63ED]", logo: "docker-mark-white.svg" },
   { name: "firebase", projects: 7, color: "bg-[#FF9100]", logo: "firebase-white.svg" },
   { name: "leaflet", projects: 1, color: "bg-[#FF9100]", logo: "leaflet-white.svg" },
+  { name}
 ];
 
 export default function SkillGrid() {
