@@ -10,9 +10,9 @@ const skills = [
   { name: "Firebase", projects: 7, color: "bg-[#303030]", logo: "firebase.svg" },
   { name: "Leaflet", projects: 1, color: "bg-green-100", logo: "leaflet.png" },
   { name: "AWS Lambda", projects: 1, color: "bg-[#D9660B]", logo: "Lambda.svg" },
-  { name: "AWS S3", projects: 2, color: "bg-red-200", logo: "S3.svg" },
+  { name: "AWS S3", projects: 2, color: "bg-green-200", logo: "S3.svg" },
   { name: "AWS Amplify", projects: 1, color: "bg-red-200", logo: "Amplify.svg" },
-  { name: "Amazon API Gateway", projects: 1, color: "bg-red-200", logo: "API Gateway.svg" },
+  { name: "Amazon API Gateway", projects: 1, color: "bg-pink-200", logo: "API Gateway.svg" },
 ];
 
 export default function SkillGrid() {
