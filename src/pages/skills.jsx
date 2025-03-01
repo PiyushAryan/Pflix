@@ -5,10 +5,11 @@ import SkillGrid from '../components/skillgrid';
 function skills() {
   return (
     <>
+    <div className='min-h-screen pt-16 mt-3'> 
       <Navbar />
-      <div><h1 className='text-5xl text-white mt-20 text-center'>Skills</h1></div>
       <SkillGrid />
       <Footer />
+      </div>
       
     </>
   )
