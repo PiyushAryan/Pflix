@@ -9,7 +9,9 @@ This project is a Netflix-inspired personal portfolio web application that mimic
 - **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
 - **Firebase**: Backend-as-a-Service (BaaS) providing authentication, Firestore database, and hosting.
 - **Vercel**: A cloud platform for static sites and serverless functions, used for deploying the application.
-
+  
+### 🌍 Map Integration  
+- **Leaflet.js** is used for interactive map features.
 
 **Docker :**
 ```
