@@ -15,5 +15,5 @@ This project is a Netflix-inspired personal portfolio web application that mimic
 
 **Docker :**
 ```
-docker pull piyusharyan81/mind:latest 
+docker pull piyusharyan81/mind:v3 
 ```
